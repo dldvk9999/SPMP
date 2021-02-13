@@ -4,8 +4,8 @@
 <br>
 - 사용법.<br>
 
-1. 간단히 백신프로그램만 검사 하고 싶으시면 "START-vaccine.bat" 파일을 클릭하세요.<br>
-2. 만약 보안프로그램을 탐지 및 최적화하고 싶으시면 "START-securityprogram.bat" 파일을 클릭하세요.<br>
+1. 간단히 백신프로그램만 검사 하고 싶으시면 "spmp.exe -v" 을 입력하세요.<br>
+2. 만약 보안프로그램을 탐지 및 최적화하고 싶으시면 "spmp.exe -s" 을 입력하세요.<br>
 3. 사용 가능 명령어로 "spmp -v"나 "spmp -d"가 있습니다.<br>
 4. 반드시 다른 프로그램들은 종료 후에 사용하여 주십시오. (특히 메모장)<br>
 5. 이 프로그램은 콘솔창에서도 사용하실 수 있습니다.<br>
@@ -13,8 +13,5 @@
 
 <br>
 - 콘솔 매뉴얼.<br>
-spmp -s	: 보안프로그램 탐지. ("START-securityprogram.bat")<br>
-spmp -v	: 백신프로그램 탐지. ("START-vaccine.bat")<br>
-
-
-
+spmp -s	: 보안프로그램 탐지. ("START-securityprogram.bat" 만들어서 사용)<br>
+spmp -v	: 백신프로그램 탐지. ("START-vaccine.bat" 만들어서 사용)<br>
